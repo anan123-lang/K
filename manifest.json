@@ -1,32 +1,3 @@
 {
-   "action": {
-      "default_title": "BloxFinder"
-   },
-   "background": {
-      "service_worker": "background.js"
-   },
-   "content_scripts": [ {
-      "js": [ "findPlayers.js", "exportClothing.js" ],
-      "matches": [ "*://*.roblox.com/*" ]
-   } ],
-   "default_locale": "en",
-   "description": "__MSG_description__",
-   "host_permissions": [ "*://*.roblox.com/*" ],
-   "icons": {
-      "128": "images/icon128.png",
-      "16": "images/icon16.png",
-      "32": "images/icon32.png",
-      "48": "images/icon48.png"
-   },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7zKrY2ebVVkwqLP/V/DDey9HmTZdZcvti6Oj3oS3NDx1LtlRKC1tGA9qnaDgHvqmYR32mM0pC21aTr7Ex+/CcXdoZVNSNB3PaA/4qrLov2gOvdiK4kI9ANK8TbhVjGVnM/ZtbiZRuCAcCcDZO5p1VgamN8uaKsf21eL401Tp/inaIbpGPlOhlqITmj0TQhb3ML2GeYDJeH3s/gnBtrDtjSP+C/9//SeyfbgXrTvuYPD59SYP9izfZRPPr75AfyKQaXFBvcQ8aT5AX38ZNLJdmBHXwhvkHg6dzjYMx+pY3m65vPi6fY+btfSVUu9uaxzLLlSLqCWb5IovXlUGmeCnpwIDAQAB",
-   "manifest_version": 3,
-   "name": "__MSG_name__",
-   "permissions": [ "scripting", "storage" ],
-   "short_name": "BloxFinder",
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "11",
-   "web_accessible_resources": [ {
-      "matches": [ "*://*.roblox.com/*" ],
-      "resources": [ "images/*", "storage/*" ]
-   } ]
+   "
 }
